@@ -1,0 +1,290 @@
+/* 레이아웃 */
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+} 
+
+
+/* 디자인 */
+#header{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    margin-top: 16px;
+}
+#header>div+div{
+    margin-left: 16px;
+}
+#logo{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% * 2/ 12);
+}
+#logo img{
+    width: 115px;
+}
+#search{
+    border-left: 1px solid #000;
+    width: calc(100% * 5/ 12);
+}
+#search input{
+    width: 100%;
+    height: 100%;
+    border:none;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    text-indent: 8px
+}
+
+.gnb_item{
+    width: calc(100% * 1/ 12);
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-indent: 8px;
+}
+.space{
+    width: calc(100% * 1/ 12);
+}
+
+.goal{
+    margin-top: 16px;
+    font-weight: bold;
+    line-height: 2.4em;
+    font-size: 100px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 240px;
+    text-indent: 72px;
+}
+
+
+
+.message{
+    margin-top: 50px;
+    margin-left: 68px;
+    color: #8f8f8f;
+    font-size: 160px;
+}
+
+#intro{
+    width: calc(100% * 7/ 12);
+}
+
+
+.story{
+    padding-top: 10em;
+    margin-bottom: 2em;
+    text-align: left;
+   
+}
+
+.story h2{
+    margin-left: 68px;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2em;
+    margin-bottom: 0.8em;
+  
+}
+
+.story p{
+    margin-left: 68px;
+    color: #000;
+    line-height: 1.6em;
+    margin-bottom: 0.8em;
+    font-size: 16px;
+    border: none;
+   
+}
+
+
+#make{
+    width: calc(100% * 5/ 12);
+}
+
+.make img{
+    /* 제조하는 피클 이미지 */
+    margin-left: 68px;
+    padding-top: 80px;
+    width: 43%;
+    margin-bottom: 200px;
+}
+
+
+#sticker img {
+    /* 스마일 스티커 */
+    width: 100px;
+    position: fixed;
+    animation: move 10s infinite ease;
+}
+
+.title h2{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title p{
+    text-align: center;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+    font-size: 24px;
+    border: none;
+}
+
+.brand-img{
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px;
+    background-image: url(/images/오이어두운배경.jpg);
+    margin-bottom: 148px;
+}
+
+
+.story h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2em;
+    margin-bottom: 0.8em;
+  
+}
+
+.story p{
+    color: #000;
+    line-height: 1.6em;
+    margin-bottom: 1em;
+    font-size: 24px;
+    border: none;
+}
+
+
+/* 쇼핑 */
+#shopping{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.product{
+    /*인기있는 제품 */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product h2{
+    text-indent: 68px;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    
+}
+
+.product p{
+    margin-left: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    font-size: 16px;
+}
+
+.list{
+    height: 460px;
+    margin-top: 128px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    
+}
+
+.list img{
+    margin-top: 48px;
+    width: 350px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    
+    
+}
+
+.list h2{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-bottom: 0.8em;
+    
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid #000;
+    
+}
+
+.list p{
+    text-indent: 44px;
+    color: #000;
+    line-height: 1.6em;
+    font-size: 16px;
+    border: none;
+    word-spacing: 188px;
+    margin-bottom: 20em;
+}
+
+#button img{
+    width: 115px;
+    margin-top: 20em;
+}
+
+
+#button2 img{
+    width: 115px;
+    margin-top: 20em;
+}
+
+#one img{
+    width: 115px;
+    margin-top: 48em;
+    margin-left: 48em;
+    
+}
+
+.article+.article{
+    margin-top: 4rem;
+}
+.article h2{
+    font-size: 2rem;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+.article p{
+    color: #8f8f8f;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+.article a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.article a+p{
+    margin-top: 1em;
+}
+

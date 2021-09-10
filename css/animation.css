@@ -1,0 +1,22 @@
+@keyframes move {
+    0%{
+        left: 50%;
+        top: 0;
+    }
+    25%{
+        left: -8px;
+        top: 65%;
+    }
+    50%{
+        top: calc(100% - 100px);
+        left: 30%;
+    }
+    75%{
+        top: 25%;
+        left: calc(100% - 100px);
+    }
+    100%{
+        left: 50%;
+        top: 0;
+    }
+}
